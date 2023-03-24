@@ -56,6 +56,7 @@ for (int j = 0; j < length; j++)
     x=x+1;
  }  
 }
+Console.WriteLine("Количество четных элементов в массиве: ");
 Console.WriteLine(x);
 
 
