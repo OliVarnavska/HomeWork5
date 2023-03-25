@@ -22,15 +22,13 @@ int[] Array(int Length)
     Random random = new Random();
     for (int i = 0; i < Length; i++)
     {
-        array[i] = random.Next(100, 999); //заполняем случайными
+        array[i] = random.Next(100, 1000); //заполняем случайными
         //цифрами из диапазона SatrArr до EndArr
 
     }
 
     return array;
 }
-// int count = 0;
-// if ( array[i] % 2 == 0) count = count+1;
 
 void PrintArray(int[] array)
 {
