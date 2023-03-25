@@ -53,7 +53,7 @@ PrintArray(array);
  int Sum = 0;
  for (int j = 0; j < length; j++)
  {
-  if (j % 2 == 0) 
+  if ((j > 0) && (j % 2 == 0)) 
   {
      Sum=Sum+array1[j];
   }  
