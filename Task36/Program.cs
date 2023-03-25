@@ -7,6 +7,8 @@
 
 // [-4, -6, 89, 6] -> 0
 
+
+
 int Prompt(string msg)
 {
 
@@ -31,8 +33,6 @@ int[] Array(int Length)
 
     return array;
 }
-// int count = 0;
-// if ( array[i] % 2 == 0) count = count+1;
 
 void PrintArray(int[] array)
 {
